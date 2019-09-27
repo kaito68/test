@@ -1,0 +1,122 @@
+#total_box__next_button .m-shadowButton {
+  left: 70px;
+}
+@media only screen and (min-width: 768px) {
+  /*#total_box__next_button .m-shadowButton {*/
+  /*left: 70px;*/
+  /*}*/
+}
+@media only screen and (max-width: 767px) {
+  #total_box__next_button .m-shadowButton {
+    left: 0;
+  }
+}
+.l-
+.l-number-text, .flow_number {
+  font-family: "Lato", "Copperplate", serif;
+}
+#cart_item_list__subtotal {
+  font-size: 15px;
+  font-family: "Lato", "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Roboto, "Droid Sans", sans-serif;
+}
+.m-shadowButton:hover,
+.m-shadowButton:focus,
+.m-shadowButton:active { color: #3e3c3a;text-decoration: none; outline: none;}
+
+#order-button {
+  background: #F3F3F3;
+  margin: 18px 0 0;
+}
+@media only screen and (max-width: 767px) {
+  #order-button {
+    margin: 0;
+  }
+}
+#customer_box__login_button button,
+#mypage_login__login_button button {
+  background: #F3F3F3;
+}
+#customer_box__login_button .m-shadowButton,
+#guest_box__confirm_button .m-shadowButton,
+#top_box__button_menu .m-shadowButton,
+#detail_box__next_button .m-shadowButton,
+#detail_box__insert_button .m-shadowButton,
+#list_box__confirm_button .m-shadowButton {
+  width: 100%;
+}
+
+#detail_box__insert_button .m-shadowButton,
+#list_box__confirm_button .m-shadowButton {
+  margin-left: -6px;
+}
+
+@media (max-width: 59.99em) {
+  #detail_box__insert_button .m-shadowButton,
+  #list_box__confirm_button .m-shadowButton {
+    margin-left: -5px;
+  }
+}
+#customer_box__login_button .m-shadowButton__txt,
+#guest_box__confirm_button .m-shadowButton__txt,
+#top_box__button_menu .m-shadowButton__txt,
+#detail_box__next_button .m-shadowButton__txt,
+#detail_box__insert_button .m-shadowButton__txt,
+#list_box__confirm_button .m-shadowButton__txt {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#detail_box__next_button .m-shadowButton {
+  margin-left: -6px;
+}
+
+#detail_box__next_button .m-shadowButton,
+#top_box__button_menu .m-shadowButton {
+  background: #ffffff;
+}
+
+.entry_index__notConsent,
+#top_box__button_menu,
+#detail_box__button_menu,
+#detail_box__back_button,
+#list_box__confirm_button,
+#list_box__back_button {
+  margin-top: 20px;
+}
+button.m-shadowButton {
+  padding: 0;
+}
+.l-shopping_note_top_border_sp {
+  border-top: 1px dotted #ccc;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .form-group .pay_jp_card_name {
+    width: 100% !important;
+  }
+  .form-group .pay_jp_card_number {
+    width: 23% !important;
+  }
+}
+#pay_jp_form_table :placeholder-shown {
+  color: #949494 !important;
+}
+#pay_jp_form_table ::-webkit-input-placeholder {
+  color: #949494 !important;
+}
+/* Google Chrome, Safari, Opera 15+, Android, iOS */
+/* Firefox 18- */
+#pay_jp_form_table :-moz-placeholder {
+  color: #949494 !important;
+}
+
+/* Firefox 19+ */
+#pay_jp_form_table ::-moz-placeholder {
+  color: #949494 !important;
+}
+
+/* IE 10+ */
+#pay_jp_form_table :-ms-input-placeholder {
+  color: #949494 !important;
+}

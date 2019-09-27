@@ -1,0 +1,317 @@
+/* -------------------------------------------------------------------------------- */
+.l-aboutDetailGrayLead {
+  font-weight: 500 !important;
+}
+.l-aboutDetailDottedLine {
+  height: 2px;
+  background-image: url(/template/default/assets/img/common/common-bd-x-dot.png);
+  background-position: top;
+  background-repeat: repeat-x;
+  vertical-align: middle;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 59.99em) {
+  .l-aboutDetailLead {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .l-aboutDetailDottedLine {
+    width: 100%;
+  }
+
+}
+
+/* -------------------------------------------------------------------------------- */
+.l-sectionLayoutAboutDetail1__cols_l {
+  padding-top: 65px;
+}
+
+.l-sectionLayoutAboutDetail1__cols_r {
+  padding-top: 65px;
+  padding-left: 7%;
+}
+
+.l-sectionLayoutAboutDetail1__pic {
+  width: 83%;
+  margin-left: 17%;
+  /*height: 350px;*/
+}
+.l-sectionLayoutAboutDetail1__pic img {
+  width: 100%;
+}
+
+.l-sectionLayoutAboutDetail1__lead {
+  padding-top: 50px;
+}
+
+.l-sectionLayoutAboutDetail1__detail {
+  padding-top: 40px;
+}
+
+.l-sectionLayoutAboutDetail1__detail_p {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 59.99em) {
+  .l-sectionLayoutAboutDetail1__cols_l {
+    padding-top: 25px;
+  }
+  .l-sectionLayoutAboutDetail1__pic {
+    width: 100%;
+    margin-left: 0;
+  }
+  .l-sectionLayoutAboutDetail1__cols_r {
+    padding: 25px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .l-sectionLayoutAboutDetail1__detail_p {
+    padding-bottom: 15px;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+.l-sectionLayoutAboutDetail2__lead {
+  /*padding-top: 50px;*/
+}
+
+.l-sectionLayoutAboutDetail2__title {
+  padding-top: 50px;
+}
+
+.l-sectionLayoutAboutDetail2__contents {
+  width: 100%;
+}
+
+.l-sectionLayoutAboutDetail2__copy {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 22px !important;
+  font-size: 2.2rem !important;
+  letter-spacing: 8px;
+}
+.l-sectionLayoutAboutDetail2__cols_l {
+  display: table-cell;
+  vertical-align: middle;
+  width: 65%;
+  /*padding-top: 40px;*/
+}
+.l-sectionLayoutAboutDetail2__pickup {
+  width: 63%;
+  margin-left: auto;
+  text-align: center;
+}
+.l-sectionLayoutAboutDetail2__description {
+  padding-top: 30px;
+  width: 63%;
+  margin-left: auto;
+  text-align: left;
+}
+.l-sectionLayoutAboutDetail2__cols_r {
+  display: table-cell;
+  width: 35%;
+  /*padding-top: 40px;*/
+  vertical-align: middle;
+}
+.l-sectionLayoutAboutDetail2__pic {
+  width: 180px;
+  margin-left: 50px;
+}
+.l-sectionLayoutAboutDetail2__pic img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.l-sectionLayoutAboutDetail2__pickupcell {
+  padding-right: 10px;
+  height: 50px;
+  vertical-align: middle;
+}
+.l-sectionLayoutAboutDetail2__pickupcell p {
+  background-color: #eae9e8;
+}
+@media (max-width: 59.99em) {
+  .l-sectionLayoutAboutDetail2 {
+    padding-top: 20px;
+  }
+  .l-sectionLayoutAboutDetail2__title {
+    padding-top: 20px;
+  }
+  .l-sectionLayoutAboutDetail2__copy {
+    padding-top: 25px;
+    width: 90%;
+    font-size: 1.3rem !important;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+  }
+  .l-sectionLayoutAboutDetail2__cols {
+    position: relative;
+  }
+  .l-sectionLayoutAboutDetail2__cols_l {
+    padding-top: 210px;
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail2__pickup {
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail2__pickup > .l-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail2__pickupcell {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 5px 0 5px;
+    height: 35px;
+  }
+  .l-sectionLayoutAboutDetail2__pickupcell > p {
+    font-size: 1rem;
+  }
+  .l-sectionLayoutAboutDetail2__description {
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail2__cols_r {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail2__pic {
+    margin: 0 auto;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+.l-sectionLayoutAboutDetail3__lead {
+  /*padding-top: 50px;*/
+}
+
+.l-sectionLayoutAboutDetail3__title {
+  padding-top: 50px;
+}
+
+.l-sectionLayoutAboutDetail3__contents {
+  width: 100%;
+}
+
+.l-sectionLayoutAboutDetail3__copy {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 22px !important;
+  font-size: 2.2rem !important;
+  letter-spacing: 8px;
+}
+.l-sectionLayoutAboutDetail3__cols_l {
+  display: table-cell;
+  vertical-align: middle;
+  width: 35%;
+  /*padding-top: 40px;*/
+}
+.l-sectionLayoutAboutDetail3__pickup {
+  width: 63%;
+  /*margin-left: 30px;*/
+  text-align: center;
+}
+.l-sectionLayoutAboutDetail3__description {
+  padding-top: 30px;
+  width: 65%;
+  /*margin-left: 30px;*/
+}
+.l-sectionLayoutAboutDetail3__cols_r {
+  display: table-cell;
+  width: 60%;
+  /*padding-top: 40px;*/
+  vertical-align: middle;
+}
+.l-sectionLayoutAboutDetail3__pic {
+  width: 180px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.l-sectionLayoutAboutDetail3__pic img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.l-sectionLayoutAboutDetail3__pickupcell {
+  padding-right: 10px;
+  height: 50px;
+  vertical-align: middle;
+}
+.l-sectionLayoutAboutDetail3__pickupcell p {
+  background-color: #eae9e8;
+}
+
+@media (max-width: 59.99em) {
+  .l-sectionLayoutAboutDetail3__title {
+    padding-top: 20px;
+  }
+
+  .l-sectionLayoutAboutDetail3__copy {
+    padding-top: 25px;
+    width: 90%;
+    font-size: 1.3rem !important;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+  }
+
+  .l-sectionLayoutAboutDetail3__cols_l {
+    width: 100%;
+    display: block;
+  }
+  .l-sectionLayoutAboutDetail3__pic {
+    margin: 0 auto;
+  }
+
+  .l-sectionLayoutAboutDetail3__cols_r {
+    padding-top: 30px;
+    width: 100%;
+    display: block;
+
+  }
+  .l-sectionLayoutAboutDetail3__pickup {
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail3__pickup > .l-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .l-sectionLayoutAboutDetail3__pickupcell {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 5px 0 5px;
+    height: 35px;
+  }
+  .l-sectionLayoutAboutDetail3__pickupcell > p {
+    font-size: 1rem;
+  }
+  .l-cellSmall {
+    letter-spacing: 0;
+    font-size: .7rem;
+  }
+
+  .l-sectionLayoutAboutDetail3__description {
+    width: 100%;
+  }
+
+
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+

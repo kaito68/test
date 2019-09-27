@@ -1,0 +1,100 @@
+/* 決済完了画面 */
+.l-kessai___flow {
+  margin-top: 15px;
+}
+.l-kessai__detail_txt {
+  /*padding-top: 40px;*/
+  font-weight: bold;
+  text-align: center;
+}
+.l-kessai__feedback_detail_txt {
+  margin-top: 30px;
+}
+.l-kessai_share {
+  margin-top: 30px;
+}
+.l-kessaiFrame__border {
+  position: relative;
+  /* padding: 0 1px 1px; */
+  background-image: url("../img/common/common-bd-y-dot.png"), url("../img/common/common-bd-y-dot.png"), url("../img/common/common-bd-x-dot.png"), url("../img/common/common-bd-x-dot.png");
+  background-position: left top, right top, left bottom;
+  background-repeat: repeat-y, repeat-y, repeat-x, repeat-x;
+  text-align: center;
+  max-width: 800px !important;
+  width:90%;
+  margin: auto;
+  padding: 20px;
+}
+.l-kessai__detail_share {
+  float: left;
+}
+.l-share_text {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+.l-kessai_share_button {
+  display: inline-block;
+  /*background: green;*/
+   background: #3e3c3a;
+  color: #ffffff;
+  height: 50px;
+  width:50px;
+  border-radius: 50px;
+  margin: 0 12px;
+}
+.l-kessai_share_button a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.l-kessai__share_tw {
+  position: relative;
+  top: 14px;
+  left: 2px;
+}
+
+.l-kessai__share_tw:before {
+  display: block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+  content: "\e960";
+}
+
+.l-kessai__share_fb {
+  position: relative;
+  top: 14px;
+  left: 1px;
+}
+.l-kessai__share_fb:before {
+  display: block;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+  content: "\e95e";
+}
+@media (max-width: 59.99em) {
+  .l-kessai_share_buttons {
+    margin-top: 20px;
+  }
+
+  .l-completed__pic {
+    margin-top: 20px;
+  }
+}
