@@ -1,0 +1,386 @@
+#detail_cart_box__cart_quantity,
+#detail_cart_extra-form {
+  display: none;
+}
+/*.l-detail_top_table_left {*/
+  /*border-right: 2px white solid;*/
+/*}*/
+/*.l-detail_top_table_right {*/
+  /*border-left: 2px white solid;*/
+  /*padding: 30px 0;*/
+/*}*/
+.l-completed_concept_0_left {
+  width: 70% !important;
+  margin-left: auto !important;;
+}
+@media (min-width: 80.00em) {
+  .l-completed__detail_float {
+    display: table;
+  }
+
+  .l-completed__detail_float_price_parent {
+    padding-right: 20px;
+  }
+
+  .l-completed__detail_float_price {
+    float: none !important;
+    margin-bottom: initial;
+    padding: 30px 56px !important;
+    width: initial !important;
+    display: table-cell !important;
+  }
+
+  .l-completed__detail_float_period {
+    float: none !important;
+    padding: 30px 20px !important;
+    width: initial !important;
+    display: table-cell !important;
+  }
+}
+.l-completed_concept_0_right {
+  vertical-align: middle !important;
+}
+.l-completed_concept_0_right_top {
+  padding-bottom: 20px !important;
+}
+
+.l-completed_concept__copy {
+  padding-top: 20px;
+  /*padding-bottom: 20px;*/
+  font-size: 22px !important;
+  font-size: 2.2rem !important;
+  letter-spacing: 8px;
+}
+.l-sectionLayoutAboutDetail2__pickupcell,
+.l-sectionLayoutAboutDetail3__pickupcell {
+  padding-right: 10px !important;
+  height: 50px !important;
+  vertical-align: middle!important;
+}
+.l-sectionLayoutAboutDetail2__pickupcell p,
+.l-sectionLayoutAboutDetail3__pickupcell p {
+  background-color: #eae9e8;
+}
+
+
+.l-completed__top {
+  position: relative;
+}
+
+
+@media (max-width: 79.99em) and (min-width: 60em){
+  .l-completed__top_pic img {
+    width: initial !important;
+    height: 100%;
+    object-fit: cover;
+    zoom: 0.8;
+  }
+
+}
+@media (max-width: 59.99em) {
+  .l-sectionLayoutAboutDetail1__detail_p {
+    padding-bottom: initial !important;
+  }
+  .l-completed__largecopy {
+    padding-top: initial !important;
+  }
+  .l-completed__pic {
+    margin-top: initial !important;
+    margin-bottom: initial !important;
+  }
+  .l-completed__top {
+    padding-bottom: initial !important;
+  }
+  .l-detail_top_table_right {
+    padding: 30px 0 0 !important;
+  }
+  /*.l-detail_top_table_left {*/
+    /*border-right: initial;*/
+  /*}*/
+  /*.l-detail_top_table_right {*/
+    /*border-left: initial;*/
+    /*padding: 30px 0;*/
+  /*}*/
+  .l-completed_concept__copy {
+    padding-top: 25px;
+    width: 90%;
+    font-size: 1.3rem !important;
+    margin: 0 auto;
+    letter-spacing: 3px;
+  }
+  .l-sectionLayoutAboutDetail1__pic {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .l-sectionLayoutAboutDetail2__pickupcell,
+  .l-sectionLayoutAboutDetail3__pickupcell {
+    display: table-cell !important;
+    vertical-align: top !important;
+    width: 50% !important;
+    padding: 0 5px 0 5px!important;
+    height: 35px !important;
+  }
+  .l-sectionLayoutAboutDetail2__pickupcell > p,
+  .l-sectionLayoutAboutDetail3__pickupcell > p {
+    font-size: 1rem !important;
+  }
+  .l-completed_bottom_buy_button_sp {
+    padding-top: initial !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* aboutmedulla_detail用 */
+.m-grayLead {
+  width: 100%;
+}
+
+.m-grayLead__jp,
+.m-grayLead__en {
+  display: block;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #eae9e8;
+  color: #3e3c3a;
+}
+
+.m-grayLead__jp {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: "Lato", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "游ゴシック体", "Yu Gothic", YuGothic, Roboto, "Droid Sans", sans-serif;
+  font-weight: 100;
+  font-size: 23px !important;
+  font-size: 2.3rem !important;
+  line-height: 48px;
+  letter-spacing: 10px;
+}
+
+.m-grayLead__en {
+  position: relative;
+  top: -1px;
+  width: 58%;
+  padding-bottom: 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+@media (min-width: 60em) and (max-width: 79.99em) {
+  .m-grayLead__jp {
+    font-size: 18px !important;
+    font-size: 1.8rem !important;
+    line-height: 40px;
+    letter-spacing: 7px;
+  }
+  .m-grayLead__en {
+    width: 78%;
+  }
+}
+
+@media (max-width: 59.99em) {
+  .m-grayLead__jp,
+  .m-grayLead__en {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .m-grayLead__jp {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 15px !important;
+    font-size: 1.5rem !important;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+  }
+  .m-grayLead__en {
+    width: 80%;
+    padding-bottom: 25px;
+    font-size: 8px !important;
+    font-size: 0.8rem !important;
+    -webkit-transform-origin: 0px 0px;
+    -ms-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    line-height: 20px;
+    font-weight: 300;
+  }
+}
+/* FAQ用のコピー */
+.l-complete_component_accordion {
+  width: 50%;
+  margin: auto;
+}
+@media (max-width: 79.99em) and (min-width: 60em){
+  .l-complete_component_accordion {
+    width: 90%;
+  }
+}
+@media (max-width: 59.99em) {
+  .l-complete_component_accordion {
+    width: 100%;
+  }
+}
+.l-faq_leadspace{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.l-faq_question{
+  margin: 10px 40px;
+}
+
+.m-faq_questiontitle{
+  display: block;
+  font-family: "Lato", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "游ゴシック体", "Yu Gothic", YuGothic, Roboto, "Droid Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px !important;
+  font-size: 1.5rem !important;
+  line-height: 40px;
+  letter-spacing: 10px;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: #3e3c3a;
+  border: 1px solid #3e3c3a;
+}
+.m-faq_questiontitle:hover {
+  background-color: #3e3c3a;
+  color: #ffffff;
+}
+.m-answers{
+  padding: 10px;
+  text-align: left;
+  background-image: url("../img/common/common-bd-y-dot.png"), url("../img/common/common-bd-y-dot.png"), url("../img/common/common-bd-x-dot.png");
+  background-position: left top, right top, left bottom;
+  background-repeat: repeat-y, repeat-y, repeat-x;
+}
+.m-answers > .m-answer{
+  font-family: "Lato", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "游ゴシック体", "Yu Gothic", YuGothic, Roboto, "Droid Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px !important;
+  font-size: 1.5rem !important;
+  margin-right: 5px;
+}
+
+@media (max-width: 59.99em) {
+  .l-faq_leadspace{
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .l-faq_question{
+    margin: 10px 0;
+  }
+  .m-faq_questiontitle {
+    padding: 10px 15px;
+    font-size: 13px !important;
+    font-size: 1.3rem !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 20px;
+  }
+  .m-answers{
+    line-height: 22px;
+  }
+  .m-answers > .m-answer{
+    font-family: "Lato", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "游ゴシック体", "Yu Gothic", YuGothic, Roboto, "Droid Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px !important;
+    font-size: 1.3rem !important;
+  }
+}
+
+/*.button_gradation {*/
+  /*z-index: 2;*/
+/*}*/
+/*.button_gradation:before {*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  !*z-index: -1;*!*/
+/*  left: -30%;*/
+/*  top: 0;*/
+/*  content: "";*/
+/*  width: 30px;*/
+/*  height: 110%;*/
+/*  transform: rotate(30deg);*/
+/*  -webkit-transform: rotate(30deg);*/
+/*  -moz-transform: rotate(30deg);*/
+/*  background-image: linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);*/
+/*  background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,1)),color-stop(100%,rgba(255,255,255,0)));*/
+/*  background-image: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, #ffffff rgba(255,255,255,1),rgba(255,255,255,0) 100%);*/
+/*  animation: shiny 4s infinite linear;*/
+/*  -webkit-animation: shiny 4s infinite linear;*/
+/*  -moz-animation: shiny 4s infinite linear;*/
+/*}*/
+.button_gradation {
+  animation: poyo 2s linear .5s infinite forwards;
+  transform-origin: 50% 50%;
+
+}
+@keyframes poyo {
+  0% { transform: scale(1); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.05); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1.05); }
+  70% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+@-webkit-keyframes poyo {
+  0% { transform: scale(1); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.05); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1.05); }
+  70% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+@-moz-keyframes poyo {
+  0% { transform: scale(1); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.05); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1.05); }
+  70% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shiny {
+  0% {
+    left: -30%;
+  }
+  20% {
+    left: 120%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+@-webkit-keyframes shiny {
+  0% {
+    left: -30%;
+  }
+  20% {
+    left: 120%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+@-moz-keyframes shiny {
+  0% {
+    left: -30%;
+  }
+  20% {
+    left: 120%;
+  }
+  100% {
+    left: 120%;
+  }
+}

@@ -1,0 +1,1118 @@
+@charset "utf-8";
+/* CSS Document */
+
+    .l-product_header {
+        background-color: #7c7d84;
+        padding-bottom: 89px;
+        padding-top: 88px;
+    }
+    
+    .l-completed__heading {
+        color: #ffffff;
+    }
+    .l-completed__heading h1 {
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+    .l-completed__heading_sub {
+        padding-top: 7px;
+    }
+
+    @media (max-width: 59.99em) {
+        .l-product_header {
+            padding-bottom: 46px;
+            padding-top: 62px;
+        }
+        .l-completed__heading {
+            padding-top: 20px;
+        }
+        .l-completed__heading h1 {
+            font-size: 2.0rem !important;
+            letter-spacing: 3px;
+        }
+        .l-completed__heading_sub {
+            padding-top: 0;
+        }
+        
+    }
+    
+    .l-completed__top_theme_description {
+        position: absolute;
+        top: 300px;
+        /*left: 50%;*/
+        /*margin-left: -700px;*/
+        left: 100px;
+        /*margin-left: -700px;*/
+        background: #ffffff;
+        padding: 0 30px;
+        width: 320px;
+    }
+    
+    @media (max-width: 79.99em) and (min-width: 60em) {
+        .l-completed__top_theme_description {
+            top: 240px;
+            left: 5%;
+            -webkit-transform-origin: 0px 0px;
+            -ms-transform-origin: 0px 0px;
+            transform-origin: 0px 0px;
+            -webkit-transform: scale(0.6);
+            -ms-transform: scale(0.6);
+            transform: scale(0.6);
+        }
+    }
+    
+    .l-completed__top_for{
+        padding: 20px 0 27px;
+    }
+    .l-completed__top_theme {
+        padding: 15px 0 52px;
+    }
+    
+    .l-completed__top_for,
+    .l-completed__top_theme {
+        border-bottom: #f2f2f4 1px solid;
+    }
+    
+    .l-completed__top_others {
+        padding: 20px 0 30px;
+    }
+    
+    .l-completed__top_for_title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 11px;
+        font-size: 1.1rem;
+        line-height: 14px;
+    }
+    
+    .l-completed__top_for_label {
+        font-family: "Montserrat", serif;
+        text-align: center;
+        font-size: 15px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+    
+    .l-completed__top_theme_title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 11px;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+    
+    .l-completed__top_theme_image {
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .l-completed__top_theme_image:before {
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 33px;
+    }
+    
+    .l-completed__top_theme_image.type-light:before {
+        content: "\e94f";
+    }
+    
+    .l-completed__top_theme_image.type-flower:before {
+        content: "\e94d";
+    }
+    
+    .l-completed__top_theme_image.type-sun:before {
+        content: "\e951";
+    }
+    
+    .l-completed__top_theme_image.type-ocean:before {
+        content: "\e950";
+    }
+    
+    .l-completed__top_theme_image.type-herb:before {
+        content: "\e94e";
+    }
+    
+    .l-completed__top_theme_name {
+        text-align: center;
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        padding-bottom: 30px;
+        font-size: 15px;
+        font-size: 1.5rem;
+        line-height: 26px;
+    }
+
+    .l-bgColor__dark_light {
+        background-color: #d6d5d2;
+    }
+    
+    .l-bgColor__dark_flower {
+        background-color: #efc8d1;
+    }
+    
+    .l-bgColor__dark_sun {
+        background-color: #ebe198;
+    }
+    
+    .l-bgColor__dark_ocean {
+        background-color: #a5d3db;
+    }
+    
+    .l-bgColor__dark_herb {
+        background-color: #dfc1d9;
+    }
+    
+    .l-completed__top_theme_description_light {
+        box-shadow: 0 -20px 0 0 #d6d5d2;
+    }
+    .l-completed__top_theme_description_flower {
+        box-shadow: 0 -20px 0 0 #efc8d1;
+    }
+    .l-completed__top_theme_description_sun {
+        box-shadow: 0 -20px 0 0 #ebe198;
+    }
+    .l-completed__top_theme_description_ocean {
+        box-shadow: 0 -20px 0 0 #a5d3db;
+    }
+    .l-completed__top_theme_description_herb {
+        box-shadow: 0 -20px 0 0 #dfc1d9;
+    }
+
+
+    .l-completed__top_others_color_square_bg__light {
+        background-color: #f4f4f4;
+    }
+    .l-completed__top_others_color_square_bg__flower {
+        background-color: #e9b9c2;
+    }
+    .l-completed__top_others_color_square_bg__sun {
+        background-color: #dacb65;
+    }
+    .l-completed__top_others_color_square_bg__ocean {
+        background-color: #9fccd4;
+    }
+    .l-completed__top_others_color_square_bg__herb {
+        background-color: #d6b9d2;
+    }
+
+    .l-completed__top_others_color {
+        display: table-cell;
+        vertical-align: top;
+        width: 40%;
+        border-right: #f2f2f4 1px solid;
+    }
+    
+    .l-completed__top_others_color_square {
+        display: table-cell;
+        vertical-align: top;
+        width: 45px;
+    }
+    
+    .l-completed__top_others_color_square p {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .l-completed__top_others_color_title {
+        position: relative;
+        top: -4px;
+    }
+
+    .l-completed__top_others_color_title,
+    .l-completed__top_others_fragrance_title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 11px;
+        font-size: 1.1rem;
+        line-height: 13px;
+        letter-spacing: 1px;
+    }
+    
+    .l-completed__top_others_color_name {
+        display: block;
+        position: relative;
+        top: -5px;
+    }
+    .l-completed__top_others_fragrance_name {
+        position: relative;
+        top: 8px;
+    }
+
+    .l-completed__top_others_color_name,
+    .l-completed__top_others_fragrance_name {
+        font-size: 11px;
+        font-size: 1.1rem;
+        line-height: 13px;
+        font-weight: 500;
+        white-space: nowrap;
+        letter-spacing: 1px;
+    }
+    
+    .l-completed__top_others_fragrance {
+        padding-top: 7px;
+        padding-left: 20px;
+    }
+    
+    @media (max-width: 59.99em) {
+
+        .l-completed__top_theme_description_light {
+            box-shadow: 0 -9px 0 0 #d6d5d2;
+        }
+        .l-completed__top_theme_description_flower {
+            box-shadow: 0 -9px 0 0 #efc8d1;
+        }
+        .l-completed__top_theme_description_sun {
+            box-shadow: 0 -9px 0 0 #ebe198;
+        }
+        .l-completed__top_theme_description_ocean {
+            box-shadow: 0 -9px 0 0 #a5d3db;
+        }
+        .l-completed__top_theme_description_herb {
+            box-shadow: 0 -9px 0 0 #dfc1d9;
+        }
+
+        .l-completed__top_others_color {
+            width: 43%;
+        }
+
+        .l-completed__top_others_color_title,
+        .l-completed__top_others_fragrance_title {
+            font-size: 10px;
+            font-size: 1.0rem;
+            line-height: 12px;
+            -webkit-transform-origin: 0px 0px;
+            -ms-transform-origin: 0px 0px;
+            transform-origin: 0px 0px;
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+
+        .l-completed__top_for_label {
+            font-size: 13px;
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+        }
+        .l-completed__top_theme_title {
+            font-size: 10px;
+            font-size: 1.0rem;
+            line-height: 12px;
+            -webkit-transform-origin: 0px 50%;
+            -ms-transform-origin: 0px 50%;
+            transform-origin: 0px 50%;
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+        .l-completed__top {
+            margin-bottom: -280px;
+        }
+        .l-completed__top_theme_description {
+            position: relative;
+            bottom: auto;
+            top: -500px;
+            left: 0px;
+            right: 0;
+            width: 85%;
+            margin: 0 auto;
+        }
+        
+        .l-completed__top_for,
+        .l-completed__top_theme {
+            padding: 12px 0 14px;
+        }
+        .l-completed__top_theme_image {
+            margin-top: 10px;
+        }
+        .l-completed__top_theme_name {
+            font-size: 12px;
+            font-size: 1.2rem;
+            padding-bottom: 0;
+        }
+        
+        .l-completed__top_theme_description > .l-table {
+            display: table;
+        }
+        .l-completed__top_others {
+            padding: 15px 0 20px;
+        }
+        .l-completed__top_others_color_square {
+            width: 40px;
+        }
+        .l-completed__top_others_color_area {
+            display: table-cell;
+        }
+        .l-completed__top_others_color_square p {
+            width: 25px;
+            height: 25px;
+            margin-top: 7px;
+        }
+        
+        .l-completed__top_others_fragrance {
+            padding-top: 3px;
+            padding-left: 10px;
+        }
+        
+        .l-completed__top_others_color_name {
+            top: -4px;
+        }
+
+        .l-completed__top_others_fragrance_name {
+            top: 5px;
+        }
+
+        .l-completed__top_others_color_name,
+        .l-completed__top_others_fragrance_name {
+            font-size: 10px;
+            -webkit-transform-origin: 0px 0px;
+            -ms-transform-origin: 0px 0px;
+            transform-origin: 0px 0px;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+    
+    
+    .l-completed__concept {
+        font-size: 11px;
+        font-size: 1.1rem;
+        font-family: "Cormorant Garamond", serif;
+    }
+
+    .l-completed__largecopy {
+        font-size: 22px !important;
+        font-size: 2.2rem !important;
+        letter-spacing: 5px;
+    }
+    
+    .l-completed__theme_detail:after {
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        display: block;
+        content: "";
+        width: 1px;
+        height: 40px;
+        margin-left: -1px;
+        background-color: #3e3c3a;
+    }
+    
+    .l-completed__theme_detail_inner {
+        padding: 69px 0;
+    }
+    
+    .l-col2photos {
+        position: relative;
+    }
+    
+    .l-completed__image_over {
+        position: absolute;
+        top: 143px;
+        left: -50px;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        text-align: left;
+    }
+    
+    .l-completed__image_over_color {
+        font-family: "Montserrat", serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+    
+    .l-completed__image_over_en {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 12px;
+    }
+    
+    @media (max-width: 79.99em) and (min-width: 60em) {
+        .l-completed__image_over {
+        }
+    }
+    @media (max-width: 59.99em) {
+        .l-completed__top_for_title {
+            font-size: 10px;
+            font-size: 1.0rem;
+            line-height: 12px;
+            -webkit-transform-origin: 0px 50%;
+            -ms-transform-origin: 0px 50%;
+            transform-origin: 0px 50%;
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+        .l-completed__concept {
+            font-size: 10px;
+            font-size: 1.0rem;
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+        .l-completed__largecopy {
+            font-size: 14px !important;
+            font-size: 1.4rem !important;
+            letter-spacing: 3px;
+        }
+        .l-completed__theme_detail {
+            padding-top: 260px;
+        }
+        .l-completed__theme_detail:after {
+            bottom: 230px;
+        }
+        .l-completed__theme_detail_inner {
+            padding: 0 0 40px;
+        }
+        .l-completed__image_description {
+            width: 200px;
+            margin: 0 auto;
+            text-align: left;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 11px;
+            font-size: 1.1rem;
+            line-height: 24px;
+            letter-spacing: 2px;
+        }
+        .l-col2photos img {
+            height: initial;
+        }
+        .l-col2photos__r li:nth-child(odd) img {
+            padding-right: initial;
+            padding-left: initial;
+        }
+    }
+    
+    .l-completed__personalized,
+    .l-completed__personalized_label_name {
+        font-family: "Montserrat", serif;
+        text-align: center;
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: 3px;
+        font-weight: 500;
+    }
+    
+    .l-completed__personalized_for {
+        font-size: 15px;
+        font-family: "Cormorant Garamond", serif;
+    }
+    
+    .l-completed__radar_section {
+        position: relative;
+    }
+    .l-completed__radar_area {
+        position: absolute;
+        top: -150px;
+        width: 100%;
+    }
+    .l-completed__radar_use_medulla {
+        padding-top: 260px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .l-completed__radar_use_medulla:before {
+        position: absolute;
+        left: 50%;
+        top: 355px;
+        display: block;
+        content: "";
+        width: 1px;
+        height: 20px;
+        margin-left: -1px;
+        background-color: #3e3c3a;
+    }
+    .l-completed__radar_use_medulla:after {
+        font-family: 'icomoon' !important;
+        position: absolute;
+        left: 50%;
+        bottom: 60px;
+        width: 4px;
+        /*margin-left: 3px;*/
+        /*margin-top: -2px;*/
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 6px;
+        content: "\e946";
+        font-size: 6px !important;
+        font-size: 0.6rem !important;
+        -webkit-transform-origin: 100% 0px;
+        -ms-transform-origin: 100% 0px;
+        transform-origin: 100% 0px;
+        -webkit-transform: scale(0.8) rotateZ(90deg);
+        -ms-transform: scale(0.8) rotateZ(90deg);
+        transform: scale(0.8) rotateZ(90deg);
+    }
+    
+    .l-completed__radar_div {
+        padding: 50px 50px;
+        margin: 0 120px;
+        background-color: #ffffff;
+        height: 450px;
+    }
+    .l-completed__radar_div > .l-table {
+        height: 100%;
+    }
+    .l-completed__radar_table_current {
+        padding-left: 20px;
+        display: table-cell;
+        vertical-align: middle;
+        width: 25%;
+        border-right: #f2f2f4 1px solid;
+    }
+    .l-completed__radar_table_current_jp {
+        font-size: 18px;
+    }
+    .l-completed__radar_table_current_en {
+        font-family: "Montserrat", serif;
+        font-size: 12px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+    .l-completed__radar_table_chart {
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%;
+        /*background-color: #676767;*/
+    }
+    .l-completed__radar_chart {
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .l-completed__radar_chart_title,
+    .l-completed__radar_trouble_title {
+        position: absolute;
+        top: 50px;
+        font-size: 15px;
+        font-family: "Cormorant Garamond", serif;
+        border-bottom: 1px solid #404146;
+    }
+    
+    .l-completed__radar_table_trouble {
+        display: table-cell;
+        vertical-align: middle;
+        width: 25%;
+    }
+    .l-completed__radar_trouble_list li {
+        text-align: center;
+        border: 1px solid #404146;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 12px 10px 12px 0;
+        max-width: 200px;
+    }
+    .l-completed__radar_trouble_list li.active {
+        border: initial;
+    }
+    @media (max-width: 79.99em) and (min-width: 60em) {
+        .l-completed__radar_chart {
+            margin: 0 20px;
+        }
+        .l-completed__radar_table_chart {
+            width: 50%;
+        }
+        .l-completed__radar_table_trouble {
+            width: 25%;
+        }
+    }
+    
+    .l-completed__components {
+        background: #ffffff;
+        padding: 50px 50px;
+        margin: 0 120px;
+    }
+    
+    .l-completed__components_ideal_table_for {
+        padding: 20px;
+        display: table-cell;
+        vertical-align: middle;
+        width: 25%;
+        border-right: #f2f2f4 1px solid;
+    }
+    
+    .l-completed__components_ideal_table_ideals {
+        display: table-cell;
+        vertical-align: top;
+        width: 75%;
+        padding-left: 20px;
+    }
+    .l-completed__ideal_title {
+        padding-left: 30px;
+    }
+    .l-completed__ideal_title span {
+        display: inline-block;
+        font-size: 15px;
+        font-family: "Cormorant Garamond", serif;
+        border-bottom: 1px solid #404146;
+    }
+    .l-completed__components_ideal_key {
+        text-align: center;
+        margin: 20px 0 20px;
+        position: relative;
+    }
+    .l-completed__components_ideal_key_no {
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        font-size: 11px;
+        font-family: "Cormorant Garamond", serif;
+        display:inline-block;
+        vertical-align: middle;
+    }
+    .l-completed__components_ideal_key_num {
+        font-size: 40px;
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        display:inline-block;
+        vertical-align: middle;
+    }
+    .l-completed__components_ideal_value {
+        text-align: center;
+        /*border: 1px solid #404146;*/
+        border-radius: 10px;
+        padding: 5px;
+        margin: 30px 30px 10px;
+    }
+    
+    .l-completed__components_realize_area {
+        background-color: #7c7d84;
+        text-align: center;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .l-completed__components_realize {
+        padding: 30px 0;
+        font-size: 15px;
+        color: #ffffff;
+    }
+    
+    .l-completed__components_component_mains {
+        border-bottom: #f2f2f4 1px solid;
+        /*background-color: #f7ffca;*/
+    }
+    .l-completed__components_component_main_elements {
+        max-width: 1100px;
+        margin: 80px auto;
+        display: grid;
+        gap: 80px 80px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        /*grid-template-rows: 300px 300px;*/
+        /*grid-template-columns: 300px 300px 300px;*/
+    }
+    @media (max-width: 79.99em) and (min-width: 60em) {
+        .l-completed__components_component_main_elements {
+            margin: 80px 20px;
+        }
+    }
+    .l-completed__components_component_main_element {
+        /*border: 1px solid red;*/
+        
+    }
+    .l-completed__components_component_main_element_image {
+        text-align: center;
+    }
+    .l-completed__components_component_main_element_image img {
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+    }
+    .l-completed__components_component_main_element_texts {
+        margin-left: 30px;
+        
+    }
+    .l-completed__components_component_main_element_no {
+        font-family: "Cormorant Garamond", serif;
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .l-completed__components_component_main_element_no_num {
+        font-family: "Montserrat", serif;
+        
+    }
+    .l-completed__components_component_main_element_name {
+        margin-top: 5px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .l-completed__components_component_main_element_description {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    
+    .l-completed__components_component_others {
+    
+    }
+    .l-completed__components_component_others_title {
+        text-align: center;
+        font-size: 15px;
+        margin: 40px 0 30px;
+    }
+    .l-completed__components_component_others_elements {
+    
+    
+    }
+    .l-completed__components_component_others_elements span {
+        display: inline-block;
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin: 10px 0 5px 10px;
+    }
+    @media (max-width: 59.99em) {
+        .l-completed__components {
+            padding: initial;
+            margin: initial;
+        }
+        .l-completed__personalized {
+        
+        }
+        .l-completed__radar_div > .l-table {
+            padding-bottom: 30px;
+        }
+        
+        .l-completed__radar_section {
+            padding-top: initial;
+        }
+        
+        .l-completed__radar_table_current,
+        .l-completed__components_ideal_table_for {
+            border-right: initial;
+        }
+        .l-completed__radar_table_current {
+            padding: 25px;
+        }
+        
+        .l-completed__radar_table_current_jp {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 25px;
+        }
+        .l-completed__radar_table_current_en {
+            margin-top: 5px;
+            font-size: 10px;
+            transform: scale(0.8);
+            transform-origin: 50% 0;
+            font-weight: 500;
+        }
+        .l-completed__radar_table_current_jp,
+        .l-completed__radar_table_current_en {
+            text-align: center;
+        }
+        
+        .l-completed__radar_area {
+            position: relative;
+            top: -80px;
+        }
+        .l-completed__radar_trouble_list {
+            display: grid;
+            gap: 0 10px;
+            grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+            padding: 0 25px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .l-completed__radar_trouble_list li {
+            margin: 5px auto;
+            width: 100%;
+            padding: 10px;
+            font-size: 11px;
+        }
+        
+        .l-completed__radar_use_medulla {
+            margin-top: 40px;
+            margin-bottom: -70px;
+            padding: initial;
+        }
+        .l-completed__radar_use_medulla:before {
+            top: initial;
+            bottom: 30px;
+        }
+        .l-completed__radar_use_medulla:after {
+            bottom: -20px;
+            left: 50%;
+            margin-left: -1px;
+        }
+        .l-completed__radar_div {
+            padding: initial;
+            margin: initial;
+            height: initial;
+            /*background-color: rgba(255, 255, 0, .5);*/
+        }
+        .l-completed__radar_table_current {
+            display: block;
+            width: 100%;
+        }
+        .l-completed__radar_chart_title {
+            top: 150px;
+            left: 25px;
+            font-size: 11px;
+        }
+        .l-completed__radar_trouble_title {
+            margin-left: 25px;
+            display: inline;
+            position: initial;
+            font-size: 11px;
+        }
+        .l-completed__radar_table_chart {
+            display: block;
+            width: 100%;
+            padding: 0px 30px;
+            margin-top: 30px;
+        }
+        .l-completed__radar_table_chart canvas {
+            position: relative;
+            left: 10px;
+        }
+        .l-completed__radar_table_trouble {
+            display: block;
+            width: 100%;
+        }
+        
+        .l-completed__components_ideal_table_for,
+        .l-completed__components_ideal_table_ideals {
+            display: block;
+            width: 100%;
+        }
+        .l-completed__components_ideal_table_ideals {
+            padding: 0 25px;
+        }
+        .l-completed__components_ideal_table_for {
+            padding: 25px;
+        }
+        .l-completed__radar_table_current:after,
+        .l-completed__components_ideal_table_for:after {
+            content:"";
+            display:inline-block;
+            width: 100%;;
+            height:1px;
+            background-color: #f2f2f4;
+            vertical-align: bottom;
+        }
+        
+        .l-completed__ideal_title {
+            padding-left: initial;
+        }
+        .l-completed__ideal_title span {
+            font-size: 11px;
+        }
+        .l-completed__components_ideal_area {
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .l-completed__components_ideal_key {
+            display: table-cell;
+            width: 26%;
+        }
+        .l-completed__components_ideal_value {
+            display: table-cell;
+            padding: 8px 15px;
+            font-size: 11px;
+        }
+        .l-completed__components_ideal_key_no {
+            left: 0;
+            margin-left: initial;
+            font-size: 10px;
+        }
+        .l-completed__components_ideal_key_num {
+            position: relative;
+            left: 7px;
+            font-size: 20px;
+        }
+        
+        
+        .l-completed__components_component_mains {
+            margin: 0 25px;
+        }
+        .l-completed__components_realize_area {
+            margin-top: 20px;
+            margin-left: 25px;
+            margin-right: 25px
+        }
+        .l-completed__components_realize {
+            padding: 20px 0;
+            font-size: 12px;
+        }
+        
+        .l-completed__components_component_main_elements {
+            margin: 40px auto;
+            gap: 30px 100px;
+        }
+        .l-completed__components_component_main_element {
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+        }
+        .l-completed__components_component_main_element_image {
+            display: table-cell;
+            width: 33%;
+            vertical-align: middle;
+        }
+        .l-completed__components_component_main_element_image img {
+            vertical-align: middle;
+            border-radius: 50%;
+            width: initial;
+            height: initial;
+            object-fit: cover;
+        }
+        .l-completed__components_component_main_element_texts {
+            display: table-cell;
+            padding-left: 20px;
+        }
+        .l-completed__components_component_main_element_no {
+            margin-top: initial;
+            font-size: 10px;
+            transform: scale(0.8);
+            transform-origin: 0 0;
+        }
+        .l-completed__components_component_main_element_name {
+            font-size: 11px;
+        }
+        .l-completed__components_component_main_element_description {
+            font-size: 10px;
+            transform: scale(0.9);
+            transform-origin: 0 0;
+            margin-top: 5px;
+        }
+        .l-completed__components_component_others {
+            padding-bottom: 20px;
+        }
+        .l-completed__components_component_others_title {
+            font-size: 14px;
+        }
+        .l-completed__components_component_others_elements {
+            padding-bottom: 20px;
+        }
+        .l-completed__components_component_others_elements span {
+            display: block;
+            text-align: center;
+            margin: 10px 25px;
+            padding: 8px 0;
+            font-size: 11px;
+        }
+    }
+    
+    .l-completed__fullset_img {
+        display: block;
+    }
+    
+    .l-completed__fullset_img img {
+        width: 100%;
+    }
+    
+    .l-completed__price_period_area {
+        width: 58%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .l-completed__price_area,
+    .l-completed__period_area {
+        background-color: #ffffff;
+        height: 90px;
+        padding: 0 20px;
+    }
+    .l-completed__price_area {
+        margin-right: 10px;
+    }
+    .l-completed__period_area {
+        margin-left: 10px;
+    }
+    .l-completed__price_period_title {
+        top: 5px;
+        position: relative;
+        display: inline-block;
+        font-size: 13px;
+        font-family: "Cormorant Garamond", serif;
+    }
+    .l-completed__price_period_value {
+        text-align: center;
+    }
+    .l-completed__price_value {
+        font-family: "Montserrat", serif;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .l-completed__price_value_tax {
+        font-size: 11px;
+    }
+    .l-completed__period_value {
+        font-size: 16px;
+    }
+    
+    .l-completed__price_period_table {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+    .l-completed__price_table,
+    .l-completed__period_table {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+        
+    }
+    @media (max-width: 79.99em) and (min-width: 60em) {
+        .l-completed__price_period_area {
+            width: 75%;
+        }
+    }
+    @media (max-width: 59.99em) {
+        .l-completed__price_period_title {
+            font-size: 10px;
+            transform: scale(0.8);
+            transform-origin: 0 0;
+        }
+        .l-completed__price_period_value {
+            padding-top: 5px;
+            font-size: 11px;
+            line-height: 16px;
+        }
+        .l-completed__price_value {
+            font-size: 15px;
+        }
+        .l-completed__price_value_tax {
+            font-size: 10px;
+            transform: scale(0.8);
+            transform-origin: 0 50%;
+        }
+        .l-completed__period_value {
+            font-size: 10px;
+        }
+        .l-completed__price_period_area {
+            width: initial;
+            margin: 0 30px;
+            padding-bottom: 0;
+        }
+        .l-completed__detail_txt {
+            font-size: 11px;
+            line-height: 22px;
+        }
+        .l-completed__detail_txt br {
+            line-height: 0;
+        }
+        .l-completed__detail_txt_underline  {
+            font-size: 13px;
+            line-height: 24px;
+        }
+        .l-completed__price_period_table {
+            margin-bottom: 50px;
+        }
+    }
+
+

@@ -1,0 +1,41 @@
+/*
+コーディング中はブラウザにガイドを引こう
+https://qiita.com/volkuwabara/items/a476fedc4f32750c0599
+
+【続】コーディング中はブラウザにガイドを引こう
+https://qiita.com/volkuwabara/items/c1c97ac2526e3effcade
+
+SassのコードをCSSに即時変換・「SassMeister」
+http://kachibito.net/useful-resource/sassmeister
+*/
+body:target .area-main::before {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: cyan;
+  left: 50%;
+  top: 0;
+  z-index: 10000;
+  content: "";
+  margin-left: -1px;
+  box-shadow: -157px 0 0 0 red,
+               120px 0 0 0 red,
+               157px 0 0 0 red
+  ;
+}
+body:target .area-main::after {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: cyan;
+  top: 50%;
+  left: 0;
+  z-index: 10000;
+  content: "";
+  margin-top: -1px;
+  box-shadow: 0 -352px 0 0 green,
+              0  352px 0 0 green
+  ;
+}
